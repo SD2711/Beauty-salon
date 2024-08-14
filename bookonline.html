@@ -38,6 +38,32 @@
           </div>
         </div>
       </nav>
-    
+      <form>
+        <fieldset>
+          <legend>Book appointment</legend>
+            <label for="name" class="form-label mt-4">Name</label>
+            <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Enter name" required>
+            <small id="name" class="form-text text-muted">We'll never share your name with anyone else.</small>
+          </div>
+          <div>
+            <label for="booking" class="form-label mt-4">Choose date and time</label>
+            <input type="datetime-local" class="form-control" id="booking" placeholder="Date and time" required>
+          </div>
+          <div>
+            <label for="exampleSelect1" class="form-label mt-4">Example select</label>
+            <select class="form-select" id="exampleSelect1">
+              <option>Hair styling</option>
+              <option>Hair washing</option>
+              <option>Haircuts for women</option>
+              <option>Haircuts for men</option>
+              <option>Hair color</option>
+              <option>Blowout & style</option>
+            </select>
+          </div>
+        <br>
+        </fieldset>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>   
+      </form>
 </body>
 </html>
